@@ -16,8 +16,8 @@ print("This evalues to ", math.fabs(y))
 print("This evalues to ", math.floor(x))
 #2 evaluates to 3. this particular method rounds a number DOWN to the nearest integer.
 print("This evalues to ", math.ceil(x))
-#this evaluates to 4
+#this evaluates to 4. rounds up to nearest int
 print("This evaluates to", math.floor(y))
-#this evaluates to -3
+#this evaluates to -3 this, obviously then must round down to nearest int
 print("This evalues to", math.ceil(y))
-#this evaluates to -2
+#this evaluates to -2, and again, here it must again round up
