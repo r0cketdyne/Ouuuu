@@ -20,7 +20,9 @@ def computeGCRatio(str_param): # what is/are the parameters needed here?
 #I think arrays are dynamically allocated at Python, else I would have allocated space for it below str_param
 #    print(rando_stackalloc)
     count1 = str_arr.count('A') #ok there's a literal count method
-    
+    print(count1)
+    #Ouuu let's just see if anything is actually printed out. I'll inject a string
+    #with A a few times and 
     count2 = str_arr.count('T') #use count method
     
     count3 = str_arr.count('C') #just use the count method 
