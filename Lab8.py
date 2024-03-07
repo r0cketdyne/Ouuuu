@@ -16,3 +16,8 @@ print("This evalues to ", math.fabs(y))
 print("This evalues to ", math.floor(x))
 #2 evaluates to 3
 print("This evalues to ", math.ceil(x))
+#this evaluates to 4
+print("This evaluates to", math.floor(y))
+#this evaluates to -3
+print("This evalues to", math.ceil(y))
+#this evaluates to -2
