@@ -11,14 +11,21 @@
 # Hint: your function will need 4 counter variables ( one for each
 # letter. And you will need to write a loop that steps through each
 # character in the string
-str_stored = ''
+
 #shit python is dynamically typed I don't need this
-str_param = input("Dear Genome Sequences, inject a string representing where each character is one of G, C, T or A, the GC ratio is computed as thecount of G+C values over the total count of A,T,C,G values")
+str_param = input("Dear Genome Sequences, inject a string representing where each character is one of G, C, T or A, the GC ratio is computed as thecount of G+C values over the total count of A,T,C,G values\n")
 
 def computeGCRatio(str_param): # what is/are the parameters needed here?
-    str_stored = str_param
-     
-print(str_stored)
+    rando_stackalloc = str_param
+    
+    print(rando_stackalloc)
+    
+computeGCRatio(str_param)
+#If you invoke a func, in python it seems like you also need to use it's affiliated param
+#not sure why. will research
+#chatbots are dumb. It couldn't even tell me
+#that I just needed to invoke this function. which I did at line 23. it was functional
+
 
 
 
