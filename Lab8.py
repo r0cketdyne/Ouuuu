@@ -13,7 +13,7 @@
 # character in the string
 
 #shit python is dynamically typed I don't need this
-str_param = input("Dear Genome Sequences, inject a string representing where each character is one of G, C, T or A, the GC ratio is computed as thecount of G+C values over the total count of A,T,C,G values\n")
+str_param = input("Dear Genome Sequencer, inject a string representing where each character is one of G, C, T or A, the GC ratio is computed as thecount of G+C values over the total count of A,T,C,G values\n")
 
 def computeGCRatio(str_param): # what is/are the parameters needed here?
     rando_stackalloc = str_param
