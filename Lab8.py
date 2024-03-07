@@ -16,10 +16,21 @@
 str_param = input("Dear Genome Sequencer, inject a string representing where each character is one of G, C, T or A, the GC ratio is computed as thecount of G+C values over the total count of A,T,C,G values\n")
 
 def computeGCRatio(str_param): # what is/are the parameters needed here?
-    rando_stackalloc = str_param
+    str_arr = param
+#I think arrays are dynamically allocated at Python, else I would have allocated space for it below str_param
+    while [char for char in str_arr]
+#    print(rando_stackalloc)
+    count1 = 'A' #ok there's a literal count method
     
+    count2 = 'T' #use count method
+    
+    count3 = 'C' #just use the count method 
+    
+    count4 = 'G' #just going to use the count method
+    
+    rando_stackalloc = (count1 + count2 + count3 + count4)
     print(rando_stackalloc)
-    
+
 computeGCRatio(str_param)
 #If you invoke a func, in python it seems like you also need to use it's affiliated param
 #not sure why. will research
