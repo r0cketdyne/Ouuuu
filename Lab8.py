@@ -1,18 +1,24 @@
-"""
-Part IIa: Writing your own functions
-We will complete this program that requires the definition of a function named computeGCRatio to
-compute the GC content of a DNA molecule.
-Given a single string as input where each character is one of G, C, T or A, the GC ratio is computed as the
-count of G+C values over the total count of A,T,C,G values. It is often written in texts as the following,
-where each letter represents the count of instances in the string
-"""
+
+###Part IIa: Writing your own functions
+###We will complete this program that requires the definition of a function named computeGCRatio to
+###compute the GC content of a DNA molecule.
+###Given a single string as input where each character is one of G, C, T or A, the GC ratio is computed as the
+###count of G+C values over the total count of A,T,C,G values. It is often written in texts as the following,
+###where each letter represents the count of instances in the string
+
 # Lab 8
 # PUT YOUR DEFINITION OF THE FUNCTION computeGCRatio HERE!
 # Hint: your function will need 4 counter variables ( one for each
 # letter. And you will need to write a loop that steps through each
 # character in the string
-def computeGCRatio( # what is/are the parameters needed here?
- # complete the logic here):
+str_stored = ''
+#shit python is dynamically typed I don't need this
+str_param = input("Dear Genome Sequences, inject a string representing where each character is one of G, C, T or A, the GC ratio is computed as thecount of G+C values over the total count of A,T,C,G values")
+
+def computeGCRatio(str_param): # what is/are the parameters needed here?
+    str_stored = str_param
+     
+print(str_stored)
 
 
 
@@ -35,5 +41,3 @@ def computeGCRatio( # what is/are the parameters needed here?
 #this evaluates to -2, and again, here it must again round up
 
 #biggest thing here. help(math) is a GREAT in console problem solving toolkit. 
-
-"""
