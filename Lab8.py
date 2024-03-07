@@ -11,10 +11,10 @@ x = 3.1;
 y = 1.0 - x;
 
 print("This evalues to ", math.fabs(y))
-#1 evaluated to 2.1
+#1 evaluated to 2.1 returns the absolute val of a num, as a float
 
 print("This evalues to ", math.floor(x))
-#2 evaluates to 3
+#2 evaluates to 3. this particular method rounds a number DOWN to the nearest integer.
 print("This evalues to ", math.ceil(x))
 #this evaluates to 4
 print("This evaluates to", math.floor(y))
