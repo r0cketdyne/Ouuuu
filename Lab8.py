@@ -30,6 +30,9 @@ def computeGCRatio(str_param): # what is/are the parameters needed here?
     rando_stackalloc = (count1 + count2 + count3 + count4)
     print(rando_stackalloc)
 
+
+
+
 computeGCRatio(str_param)
 #If you invoke a func, in python it seems like you also need to use it's affiliated param
 #not sure why. will research
@@ -41,6 +44,13 @@ computeGCRatio(str_param)
 
 
 #FUGAZZI
+
+#gc_ratio = (count3 + count4) / (count1 + count2 + count3 + count4)  # Compute GC ratio
+#    print("GC Ratio:", gc_ratio)
+#two lines above are the ratio I need, but not implementing this yet. this
+#program is waaaay easier than I anticipated that it would be
+
+
 #import math
 #x = 3.1;
 #y = 1.0 - x;
