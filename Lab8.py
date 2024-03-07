@@ -16,17 +16,16 @@
 str_param = input("Dear Genome Sequencer, inject a string representing where each character is one of G, C, T or A, the GC ratio is computed as thecount of G+C values over the total count of A,T,C,G values\n")
 
 def computeGCRatio(str_param): # what is/are the parameters needed here?
-    str_arr = param
+    str_arr = str_param #fuck, I forgot to att str to str_param. typos ffs
 #I think arrays are dynamically allocated at Python, else I would have allocated space for it below str_param
-    while [char for char in str_arr]
 #    print(rando_stackalloc)
-    count1 = 'A' #ok there's a literal count method
+    count1 = str_arr.count('A') #ok there's a literal count method
     
-    count2 = 'T' #use count method
+    count2 = str_arr.count('T') #use count method
     
-    count3 = 'C' #just use the count method 
+    count3 = str_arr.count('C') #just use the count method 
     
-    count4 = 'G' #just going to use the count method
+    count4 = str_arr.count('G') #just going to use the count method
     
     rando_stackalloc = (count1 + count2 + count3 + count4)
     print(rando_stackalloc)
