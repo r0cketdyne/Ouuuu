@@ -21,3 +21,5 @@ print("This evaluates to", math.floor(y))
 #this evaluates to -3 this, obviously then must round down to nearest int
 print("This evalues to", math.ceil(y))
 #this evaluates to -2, and again, here it must again round up
+
+#biggest thing here. help(math) is a GREAT in console problem solving toolkit. 
