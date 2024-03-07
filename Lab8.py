@@ -41,7 +41,9 @@ computeGCRatio(str_param)
 
 
 
-
+#in music, studio time is essential. faculty and student complaints, strikes. 
+#all people to at Concordia is protest. Have they tried 
+#putting in actual work lol. This isn't McGill. At least the campus is nice
 
 #FUGAZZI
 
