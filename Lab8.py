@@ -24,15 +24,13 @@ def computeGCRatio(str_param): # what is/are the parameters needed here?
     #Ouuu let's just see if anything is actually printed out. I'll inject a string
     #with A a few times and 
     count2 = str_arr.count('T') #use count method
-    
+    #print(count2)
     count3 = str_arr.count('C') #just use the count method 
-    
+    #print(count3)
     count4 = str_arr.count('G') #just going to use the count method
-    
-    rando_stackalloc = (count1 + count2 + count3 + count4)
-    print(rando_stackalloc)
-
-
+    #print(count4)
+    print((count4 + count3) / (count1 + count2 + count4 + count3)) #implemented equation at canvas wireframe
+#    print(rando_stackalloc)
 
 
 computeGCRatio(str_param)
